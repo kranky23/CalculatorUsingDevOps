@@ -1,0 +1,6 @@
+---
+- name: Test connectivity to target servers
+  hosts: docker
+  tasks:
+    - name: Ping test
+      ping:
