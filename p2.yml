@@ -7,3 +7,6 @@
       copy:
         src: ./target/calculatorDevOps-1.0-SNAPSHOT-jar-with-dependencies.jar
         dest: ~/
+
+
+
