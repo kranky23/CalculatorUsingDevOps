@@ -148,7 +148,7 @@ public class Calculator {
     public double factoral(double number1) {
         logger.info("[FACTORIAL] - " + number1);
         double result = fact(number1);
-        logger.info("[RESULT - FACTORIAL] - " + result);
+        logger.info("[FACTORIAL RESULT ] - " + result);
         return result;
     }
 
@@ -157,7 +157,7 @@ public class Calculator {
     public double sqroot(double number1) {
         logger.info("[SQ ROOT] - " + number1);
         double result = Math.sqrt(number1);
-        logger.info("[RESULT - SQ ROOT] - " + result);
+        logger.info("[SQ ROOT RESULT ] - " + result);
         return result;
     }
 
@@ -165,7 +165,7 @@ public class Calculator {
     public double power(double number1, double number2) {
         logger.info("[POWER - " + number1 + " RAISED TO] - " + number2);
         double result = Math.pow(number1,number2);
-        logger.info("[RESULT - POWER] - " + result);
+        logger.info("[POWER RESULT ] - " + result);
         return result;
     }
 
@@ -184,7 +184,7 @@ public class Calculator {
         } catch (ArithmeticException error) {
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        logger.info("[RESULT - NATURAL LOG] - " + result);
+        logger.info("[NATURAL LOG RESULT ] - " + result);
         return result;
     }
     public double fact(double num) {
