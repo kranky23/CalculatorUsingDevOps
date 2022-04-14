@@ -48,11 +48,11 @@
             }
 
             stage('Pull Image from docker hub ') {
-                            steps {
-                                //Ansible Deploy to remote server (managed host)
-                                ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'pull.yml'
-                                echo 'Image pulled succesfully'
-                            }
-                        }
+                steps {
+                    //Ansible Deploy to remote server (managed host)
+                    ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'pull.yml'
+                    echo 'Image pulled successfully'
+                }
+            }
         }
     }
