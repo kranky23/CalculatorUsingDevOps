@@ -62,8 +62,8 @@ public class CalculatorTest {
 
     @Test
     public void addFalsePositive(){
-        assertEquals("Finding addition for True Positive", 60, calculator.add(46,2), DELTA);
-        assertEquals("Finding addition for True Positive", 100, calculator.add(82,2), DELTA);
+        assertNotEquals("Finding addition for True Positive", 60, calculator.add(46,2), DELTA);
+        assertNotEquals("Finding addition for True Positive", 100, calculator.add(82,2), DELTA);
     }
 
     @Test
@@ -74,8 +74,8 @@ public class CalculatorTest {
 
     @Test
     public void subFalsePositive(){
-        assertEquals("Finding subtraction for True Positive", 3, calculator.sub(40,20), DELTA);
-        assertEquals("Finding addition for True Positive", 6, calculator.sub(8,20), DELTA);
+        assertNotEquals("Finding subtraction for True Positive", 3, calculator.sub(40,20), DELTA);
+        assertNotEquals("Finding addition for True Positive", 6, calculator.sub(8,20), DELTA);
     }
 
     @Test
@@ -86,8 +86,8 @@ public class CalculatorTest {
 
     @Test
     public void mulFalsePositive(){
-        assertEquals("Finding subtraction for True Positive", 84, calculator.mul(40,21), DELTA);
-        assertEquals("Finding addition for True Positive", 66, calculator.mul(86,2), DELTA);
+        assertNotEquals("Finding subtraction for True Positive", 84, calculator.mul(40,21), DELTA);
+        assertNotEquals("Finding addition for True Positive", 66, calculator.mul(86,2), DELTA);
     }
 
     @Test
@@ -99,7 +99,7 @@ public class CalculatorTest {
 
     @Test
     public void divFalsePositive(){
-        assertEquals("Finding subtraction for True Positive", 400, calculator.div(80,2), DELTA);
-        assertEquals("Finding addition for True Positive", 660, calculator.div(132,2), DELTA);
+        assertNotEquals("Finding subtraction for True Positive", 400, calculator.div(80,2), DELTA);
+        assertNotEquals("Finding addition for True Positive", 660, calculator.div(132,2), DELTA);
     }
 }
