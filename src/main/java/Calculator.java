@@ -105,7 +105,7 @@ public class Calculator {
 
 
     public double div(double number1,double number2) {
-        logger.info("[DIVISION OF - " + number1 + " AND] " + number2);
+        logger.info("[DIVISION OF - " + number1 + " AND ] - " + number2);
         double result = 0;
         try {
 
@@ -117,30 +117,30 @@ public class Calculator {
                 result = number1/number2;
             }
         } catch (ArithmeticException error) {
-            System.out.println("[EXCEPTION - DIVISION] - Cannot divide when denominator is zero " + error.getLocalizedMessage());
+            System.out.println("[DIVISION EXCEPTION ] - Cannot divide when denominator is zero " + error.getLocalizedMessage());
         }
-        logger.info("[RESULT - DIVISION] - " + result);
+        logger.info("[DIVISION RESULT ] - " + result);
         return result;
     }
 
     double mul(double number1, double number2) {
-        logger.info("[MULTIPLICATION OF - " + number1 + " AND] " + number2);
+        logger.info("[MULTIPLICATION OF - " + number1 + " AND ] - " + number2);
         double result = number1 * number2;
-        logger.info("[RESULT - MULTIPLICATION] - " + result);
+        logger.info("[MULTIPLICATION RESULT ] - " + result);
         return result;
     }
 
     double sub(double number1, double number2) {
-        logger.info("[SUBTRACTION OF - " + number1 + " AND] " + number2);
+        logger.info("[SUBTRACTION OF - " + number1 + " AND ] - " + number2 );
         double result = number1 - number2;
-        logger.info("[RESULT - SUBTRACTION] - " + result);
+        logger.info("[SUBTRACTION RESULT ] - " + result);
         return result;
     }
 
     double add(double number1, double number2) {
-        logger.info("[ADDITION OF - " + number1 + " AND] " + number2);
+        logger.info("[ADDITION OF " + number1 + " AND ] - " + number2);
         double result = number1 + number2;
-        logger.info("[RESULT - ADDITION] - " + result);
+        logger.info("[ADDITION RESULT ] - " + result);
         return result;
     }
 
@@ -163,7 +163,7 @@ public class Calculator {
 
 
     public double power(double number1, double number2) {
-        logger.info("[POWER - " + number1 + " RAISED TO] " + number2);
+        logger.info("[POWER - " + number1 + " RAISED TO] - " + number2);
         double result = Math.pow(number1,number2);
         logger.info("[RESULT - POWER] - " + result);
         return result;
