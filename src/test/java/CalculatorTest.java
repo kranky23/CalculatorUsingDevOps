@@ -1,4 +1,3 @@
-import calculator.Calculator;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -55,5 +54,52 @@ public class CalculatorTest {
 
     }
 
+    @Test
+    public void addTruePositive(){
+        assertEquals("Finding addition for True Positive", 6, calculator.add(4,2), DELTA);
+        assertEquals("Finding addition for True Positive", 10, calculator.add(8,2), DELTA);
+    }
 
+    @Test
+    public void addFalsePositive(){
+        assertEquals("Finding addition for True Positive", 60, calculator.add(46,2), DELTA);
+        assertEquals("Finding addition for True Positive", 100, calculator.add(82,2), DELTA);
+    }
+
+    @Test
+    public void subTruePositive(){
+        assertEquals("Finding subtraction for True Positive", 38, calculator.sub(40,2), DELTA);
+        assertEquals("Finding addition for True Positive", 66, calculator.sub(86,20), DELTA);
+    }
+
+    @Test
+    public void subFalsePositive(){
+        assertEquals("Finding subtraction for True Positive", 3, calculator.sub(40,20), DELTA);
+        assertEquals("Finding addition for True Positive", 6, calculator.sub(8,20), DELTA);
+    }
+
+    @Test
+    public void mulTruePositive(){
+        assertEquals("Finding subtraction for True Positive", 84, calculator.mul(4,21), DELTA);
+        assertEquals("Finding addition for True Positive", 1720, calculator.mul(86,20), DELTA);
+    }
+
+    @Test
+    public void mulFalsePositive(){
+        assertEquals("Finding subtraction for True Positive", 84, calculator.mul(40,21), DELTA);
+        assertEquals("Finding addition for True Positive", 66, calculator.mul(86,2), DELTA);
+    }
+
+    @Test
+    public void divTruePositive(){
+        assertEquals("Finding subtraction for True Positive", 40, calculator.div(80,2), DELTA);
+        assertEquals("Finding addition for True Positive", 66, calculator.div(132,2), DELTA);
+        assertEquals("Finding addition for Divide by zero exception", 66, calculator.div(13,0), DELTA);
+    }
+
+    @Test
+    public void divFalsePositive(){
+        assertEquals("Finding subtraction for True Positive", 400, calculator.div(80,2), DELTA);
+        assertEquals("Finding addition for True Positive", 660, calculator.div(132,2), DELTA);
+    }
 }

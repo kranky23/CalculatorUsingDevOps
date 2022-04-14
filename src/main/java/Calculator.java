@@ -1,5 +1,3 @@
-package calculator;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
@@ -19,7 +17,8 @@ public class Calculator {
         do {
             System.out.println("Calculator-DevOps, Choose to perform operation");
             System.out.print("Press 1 to find factorial\nPress 2 to find Square root\nPress 3 to find power\nPress 4 to find natural logarithm\n" +
-                    "Press 5 to exit\nEnter your choice: ");
+
+                    "Press 5 to find add\nPress 6 to find subtract\nPress 7 to find multiplication\nPress 8 to exit\nEnter your choice: ");
             int choice;
             try {
                 choice = scanner.nextInt();
@@ -60,13 +59,89 @@ public class Calculator {
                     number1 = scanner.nextDouble();
                     System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
                     System.out.println("\n");
-
+                    break;
+                case 5:
+                    // find addition
+                    System.out.print("Enter the first number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.print("Enter the second number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println("Addition of these numbers is " + calculator.add(number1, number2));
+                    System.out.println("\n");
+                    break;
+                case 6:
+                    // find subtraction
+                    System.out.print("Enter the first number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.print("Enter the second number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println("Subtraction of these numbers is " + calculator.sub(number1, number2));
+                    System.out.println("\n");
+                    break;
+                case 7:
+                    // find multiplication
+                    System.out.print("Enter the first number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.print("Enter the second number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println("Multiplication of these numbers is " + calculator.mul(number1, number2));
+                    System.out.println("\n");
+                    break;
+                case 8:
+                    // find division
+                    System.out.print("Enter the first number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.print("Enter the second number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println("Division of these numbers is " + calculator.div(number1, number2));
+                    System.out.println("\n");
                     break;
                 default:
                     System.out.println("Exiting....");
                     return;
             }
         } while (true);
+    }
+
+
+    public double div(double number1,double number2) {
+        logger.info("[DIVISION OF - " + number1 + " AND] " + number2);
+        double result = 0;
+        try {
+
+            if (number2 == 0 ) {
+                result = Double.NaN;
+                throw new ArithmeticException("Case of Division by zero exception");
+            }
+            else {
+                result = number1/number2;
+            }
+        } catch (ArithmeticException error) {
+            System.out.println("[EXCEPTION - DIVISION] - Cannot divide when denominator is zero " + error.getLocalizedMessage());
+        }
+        logger.info("[RESULT - DIVISION] - " + result);
+        return result;
+    }
+
+    double mul(double number1, double number2) {
+        logger.info("[MULTIPLICATION OF - " + number1 + " AND] " + number2);
+        double result = number1 * number2;
+        logger.info("[RESULT - MULTIPLICATION] - " + result);
+        return result;
+    }
+
+    double sub(double number1, double number2) {
+        logger.info("[SUBTRACTION OF - " + number1 + " AND] " + number2);
+        double result = number1 - number2;
+        logger.info("[RESULT - SUBTRACTION] - " + result);
+        return result;
+    }
+
+    double add(double number1, double number2) {
+        logger.info("[ADDITION OF - " + number1 + " AND] " + number2);
+        double result = number1 + number2;
+        logger.info("[RESULT - ADDITION] - " + result);
+        return result;
     }
 
 
