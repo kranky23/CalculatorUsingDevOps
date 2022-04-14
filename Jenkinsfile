@@ -26,7 +26,7 @@
                 }
             }
 
-            stage ('Docker login') {
+            stage ('Docker login and Push image to docker hub') {
                 steps {
                     withCredentials([string(credentialsId: '12', variable: 'dockerpwd')]) {
         // some block
@@ -46,5 +46,13 @@
 
                 }
             }
+
+            stage('Pull Image from docker hub ') {
+                            steps {
+                                //Ansible Deploy to remote server (managed host)
+                                ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'pull.yml'
+                                echo 'Image pulled succesfully'
+                            }
+                        }
         }
     }

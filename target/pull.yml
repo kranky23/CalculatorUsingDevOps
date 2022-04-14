@@ -1,0 +1,8 @@
+---
+- name: Pull docker image from docker hub
+  hosts: localhost
+  connection: local
+  remote_user: kaushik
+  tasks:
+    - name: pull image
+      command: docker pull kranky23/speminiproj:latest
