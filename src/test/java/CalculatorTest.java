@@ -94,12 +94,13 @@ public class CalculatorTest {
     public void divTruePositive(){
         assertEquals("Finding division for True Positive", 40, calculator.div(80,2), DELTA);
         assertEquals("Finding division for True Positive", 66, calculator.div(132,2), DELTA);
-        assertEquals("Finding division for Divide by zero exception", 66, calculator.div(13,0), DELTA);
     }
 
     @Test
     public void divFalsePositive(){
         assertNotEquals("Finding division for False Positive", 400, calculator.div(80,2), DELTA);
         assertNotEquals("Finding division for False Positive", 660, calculator.div(132,2), DELTA);
+        assertNotEquals("Finding division for Divide by zero exception", 66, calculator.div(13,0), DELTA);
+
     }
 }

@@ -1,24 +1,166 @@
-2021-03-14 15:40:01.591 [main] INFO  Calculator - [SQ ROOT] - 3.0
-2021-03-14 15:40:01.595 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
-2021-03-14 15:40:01.596 [main] INFO  Calculator - [SQ ROOT] - 4.0
-2021-03-14 15:40:01.596 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
-2021-03-14 15:40:01.597 [main] INFO  Calculator - [NATURAL LOG] - 1.0
-2021-03-14 15:40:01.597 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
-2021-03-14 15:40:01.597 [main] INFO  Calculator - [NATURAL LOG] - 1.0
-2021-03-14 15:40:01.598 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
-2021-03-14 15:40:01.599 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 2.0
-2021-03-14 15:40:01.599 [main] INFO  Calculator - [RESULT - POWER] - 4.0
-2021-03-14 15:40:01.599 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
-2021-03-14 15:40:01.599 [main] INFO  Calculator - [RESULT - POWER] - 8.0
-2021-03-14 15:40:01.600 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
-2021-03-14 15:40:01.600 [main] INFO  Calculator - [RESULT - POWER] - 8.0
-2021-03-14 15:40:01.600 [main] INFO  Calculator - [POWER - 4.0 RAISED TO] 3.0
-2021-03-14 15:40:01.600 [main] INFO  Calculator - [RESULT - POWER] - 64.0
-2021-03-14 15:40:01.601 [main] INFO  Calculator - [NATURAL LOG] - 2.4
-2021-03-14 15:40:01.601 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
-2021-03-14 15:40:01.601 [main] INFO  Calculator - [NATURAL LOG] - 2.1
-2021-03-14 15:40:01.601 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
-2021-03-14 15:40:01.602 [main] INFO  Calculator - [SQ ROOT] - 4.0
-2021-03-14 15:40:01.602 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
-2021-03-14 15:40:01.602 [main] INFO  Calculator - [SQ ROOT] - 1.0
-2021-03-14 15:40:01.603 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SQ ROOT] - 3.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [ADDITION OF - 4.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 6.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [ADDITION OF - 8.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 10.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 40.0 AND] 21.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 840.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [DIVISION OF - 132.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 66.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [DIVISION OF - 13.0 AND] 0.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - NaN
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 38.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 86.0 AND] 20.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 66.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [ADDITION OF - 46.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 48.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - POWER] - 4.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 20.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 20.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 4.0 AND] 21.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 84.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 86.0 AND] 20.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 1720.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [POWER - 4.0 RAISED TO] 3.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - POWER] - 64.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.4
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.1
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [SQ ROOT] - 1.0
+14/Apr/2022:11:13:16 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SQ ROOT] - 3.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [ADDITION OF - 4.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 6.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [ADDITION OF - 8.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 10.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 40.0 AND] 21.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 840.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 86.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 172.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [DIVISION OF - 132.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 66.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [DIVISION OF - 13.0 AND] 0.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - NaN
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 38.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 86.0 AND] 20.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 66.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [ADDITION OF - 46.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 48.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [ADDITION OF - 82.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 84.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - POWER] - 4.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 20.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 20.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 8.0 AND] 20.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - -12.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 4.0 AND] 21.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 84.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 86.0 AND] 20.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 1720.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [POWER - 4.0 RAISED TO] 3.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - POWER] - 64.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.4
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.1
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [DIVISION OF - 132.0 AND] 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 66.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [SQ ROOT] - 1.0
+14/Apr/2022:11:26:48 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [SQ ROOT] - 3.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [ADDITION OF - 4.0 AND] 2.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 6.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [ADDITION OF - 8.0 AND] 2.0
+14/Apr/2022:11:28:20 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 10.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 40.0 AND] 21.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 840.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 86.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 172.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [DIVISION OF - 132.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 66.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [NATURAL LOG] - 1.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 38.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 86.0 AND] 20.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 66.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [ADDITION OF - 46.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 48.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [ADDITION OF - 82.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - ADDITION] - 84.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - POWER] - 4.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 40.0 AND] 20.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - 20.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SUBTRACTION OF - 8.0 AND] 20.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SUBTRACTION] - -12.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 4.0 AND] 21.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 84.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [MULTIPLICATION OF - 86.0 AND] 20.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - MULTIPLICATION] - 1720.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [POWER - 2.0 RAISED TO] 3.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - POWER] - 8.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [POWER - 4.0 RAISED TO] 3.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - POWER] - 64.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.4
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [NATURAL LOG] - 2.1
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [DIVISION OF - 80.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 40.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [DIVISION OF - 132.0 AND] 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - 66.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [DIVISION OF - 13.0 AND] 0.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - DIVISION] - NaN
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SQ ROOT] - 4.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 2.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [SQ ROOT] - 1.0
+14/Apr/2022:11:28:21 +0530 [main] INFO  Calculator - [RESULT - SQ ROOT] - 1.0
