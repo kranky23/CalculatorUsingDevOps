@@ -13,7 +13,7 @@ public class Calculator {
 
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
-        double number1, number2;
+        double num1, num2;
         do {
             System.out.println("Calculator-DevOps, Choose to perform operation");
             System.out.print("Press 1 to find factorial\nPress 2 to find Square root\nPress 3 to find power\nPress 4 to find natural logarithm\n" +
@@ -29,71 +29,71 @@ public class Calculator {
             switch (choice) {
                 case 1:
                     // do factorial
-                    System.out.print("Enter a number : ");
-                    number1 = scanner.nextDouble();
-                    System.out.println("Factorial of "+number1+" is : " + calculator.factoral(number1));
+                    System.out.print("Enter number : ");
+                    num1 = scanner.nextDouble();
+                    System.out.println("Factorial of "+num1+" is : " + calculator.factorial(num1));
                     System.out.println("\n");
 
                     break;
                 case 2:
                     // find square root
-                    System.out.print("Enter a number : ");
-                    number1 = scanner.nextDouble();
-                    System.out.println("Square root of "+number1+" is : " + calculator.sqroot(number1));
+                    System.out.print("Enter number : ");
+                    num1 = scanner.nextDouble();
+                    System.out.println("Square root of "+num1+" is : " + calculator.squareRoot(num1));
                     System.out.println("\n");
 
 
                     break;
                 case 3:
                     // find power
-                    System.out.print("Enter the first number : ");
-                    number1 = scanner.nextDouble();
-                    System.out.print("Enter the second number : ");
-                    number2 = scanner.nextDouble();
-                    System.out.println(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
+                    System.out.print("Enter first number : ");
+                    num1 = scanner.nextDouble();
+                    System.out.print("Enter second number : ");
+                    num2 = scanner.nextDouble();
+                    System.out.println(num1+ " power "+num2+" is : " + calculator.power(num1, num2));
                     System.out.println("\n");
                     break;
                 case 4:
                     // find natural log
-                    System.out.print("Enter a number : ");
-                    number1 = scanner.nextDouble();
-                    System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
+                    System.out.print("Enter number : ");
+                    num1 = scanner.nextDouble();
+                    System.out.println("Natural logarithm of "+num1+" is : " + calculator.naturalLog(num1));
                     System.out.println("\n");
                     break;
                 case 5:
                     // find addition
-                    System.out.print("Enter the first number : ");
-                    number1 = scanner.nextDouble();
-                    System.out.print("Enter the second number : ");
-                    number2 = scanner.nextDouble();
-                    System.out.println("Addition of these numbers is " + calculator.add(number1, number2));
+                    System.out.print("Enter first number : ");
+                    num1 = scanner.nextDouble();
+                    System.out.print("Enter second number : ");
+                    num2 = scanner.nextDouble();
+                    System.out.println("Addition of these numbers is " + calculator.add(num1, num2));
                     System.out.println("\n");
                     break;
                 case 6:
                     // find subtraction
                     System.out.print("Enter the first number : ");
-                    number1 = scanner.nextDouble();
+                    num1 = scanner.nextDouble();
                     System.out.print("Enter the second number : ");
-                    number2 = scanner.nextDouble();
-                    System.out.println("Subtraction of these numbers is " + calculator.sub(number1, number2));
+                    num2 = scanner.nextDouble();
+                    System.out.println("Subtraction of these numbers is " + calculator.sub(num1, num2));
                     System.out.println("\n");
                     break;
                 case 7:
                     // find multiplication
                     System.out.print("Enter the first number : ");
-                    number1 = scanner.nextDouble();
+                    num1 = scanner.nextDouble();
                     System.out.print("Enter the second number : ");
-                    number2 = scanner.nextDouble();
-                    System.out.println("Multiplication of these numbers is " + calculator.mul(number1, number2));
+                    num2 = scanner.nextDouble();
+                    System.out.println("Multiplication of these numbers is " + calculator.mul(num1, num2));
                     System.out.println("\n");
                     break;
                 case 8:
                     // find division
                     System.out.print("Enter the first number : ");
-                    number1 = scanner.nextDouble();
+                    num1 = scanner.nextDouble();
                     System.out.print("Enter the second number : ");
-                    number2 = scanner.nextDouble();
-                    System.out.println("Division of these numbers is " + calculator.div(number1, number2));
+                    num2 = scanner.nextDouble();
+                    System.out.println("Division of these numbers is " + calculator.div(num1, num2));
                     System.out.println("\n");
                     break;
                 default:
@@ -104,88 +104,88 @@ public class Calculator {
     }
 
 
-    public double div(double number1,double number2) {
-        logger.info("[DIVISION OF - " + number1 + " AND ] - " + number2);
-        double result = 0;
+    public double div(double num1,double num2) {
+        logger.info("[DIVISION OF - " + num1 + " AND ] - " + num2);
+        double answer = 0;
         try {
 
-            if (number2 == 0 ) {
-                result = Double.NaN;
+            if (num2 == 0 ) {
+                answer = Double.NaN;
                 throw new ArithmeticException("Case of Division by zero exception");
             }
             else {
-                result = number1/number2;
+                answer = num1/num2;
             }
         } catch (ArithmeticException error) {
             System.out.println("[DIVISION EXCEPTION ] - Cannot divide when denominator is zero " + error.getLocalizedMessage());
         }
-        logger.info("[DIVISION RESULT ] - " + result);
-        return result;
+        logger.info("[DIVISION RESULT ] - " + answer);
+        return answer;
     }
 
-    double mul(double number1, double number2) {
-        logger.info("[MULTIPLICATION OF - " + number1 + " AND ] - " + number2);
-        double result = number1 * number2;
-        logger.info("[MULTIPLICATION RESULT ] - " + result);
-        return result;
+    double mul(double num1, double num2) {
+        logger.info("[MULTIPLICATION OF - " + num1 + " AND ] - " + num2);
+        double answer = num1 * num2;
+        logger.info("[MULTIPLICATION RESULT ] - " + answer);
+        return answer;
     }
 
-    double sub(double number1, double number2) {
-        logger.info("[SUBTRACTION OF - " + number1 + " AND ] - " + number2 );
-        double result = number1 - number2;
-        logger.info("[SUBTRACTION RESULT ] - " + result);
-        return result;
+    double sub(double num1, double num2) {
+        logger.info("[SUBTRACTION OF - " + num1 + " AND ] - " + num2 );
+        double answer = num1 - num2;
+        logger.info("[SUBTRACTION RESULT ] - " + answer);
+        return answer;
     }
 
-    double add(double number1, double number2) {
-        logger.info("[ADDITION OF " + number1 + " AND ] - " + number2);
-        double result = number1 + number2;
-        logger.info("[ADDITION RESULT ] - " + result);
-        return result;
-    }
-
-
-    public double factoral(double number1) {
-        logger.info("[FACTORIAL] - " + number1);
-        double result = fact(number1);
-        logger.info("[FACTORIAL RESULT ] - " + result);
-        return result;
+    double add(double num1, double num2) {
+        logger.info("[ADDITION OF " + num1 + " AND ] - " + num2);
+        double answer = num1 + num2;
+        logger.info("[ADDITION RESULT ] - " + answer);
+        return answer;
     }
 
 
-
-    public double sqroot(double number1) {
-        logger.info("[SQ ROOT] - " + number1);
-        double result = Math.sqrt(number1);
-        logger.info("[SQ ROOT RESULT ] - " + result);
-        return result;
+    public double factorial(double num1) {
+        logger.info("[FACTORIAL] - " + num1);
+        double answer = fact(num1);
+        logger.info("[FACTORIAL RESULT ] - " + answer);
+        return answer;
     }
 
 
-    public double power(double number1, double number2) {
-        logger.info("[POWER - " + number1 + " RAISED TO] - " + number2);
-        double result = Math.pow(number1,number2);
-        logger.info("[POWER RESULT ] - " + result);
-        return result;
+
+    public double squareRoot(double num1) {
+        logger.info("[SQ ROOT] - " + num1);
+        double answer = Math.sqrt(num1);
+        logger.info("[SQ ROOT RESULT ] - " + answer);
+        return answer;
     }
 
-    public double naturalLog(double number1) {
-        logger.info("[NATURAL LOG] - " + number1);
-        double result = 0;
+
+    public double power(double num1, double num2) {
+        logger.info("[POWER - " + num1 + " RAISED TO] - " + num2);
+        double answer = Math.pow(num1,num2);
+        logger.info("[POWER RESULT ] - " + answer);
+        return answer;
+    }
+
+    public double naturalLog(double num1) {
+        logger.info("[NATURAL LOG] - " + num1);
+        double answer = 0;
         try {
 
-            if (number1 <0 ) {
-                result = Double.NaN;
+            if (num1 <0 ) {
+                answer = Double.NaN;
                 throw new ArithmeticException("Case of NaN 0.0/0.0");
             }
             else {
-                result = Math.log(number1);
+                answer = Math.log(num1);
             }
         } catch (ArithmeticException error) {
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        logger.info("[NATURAL LOG RESULT ] - " + result);
-        return result;
+        logger.info("[NATURAL LOG RESULT ] - " + answer);
+        return answer;
     }
     public double fact(double num) {
         double facto = 1;
