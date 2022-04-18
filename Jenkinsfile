@@ -1,7 +1,4 @@
     pipeline {
-        // The “agent” section configures on which nodes the pipeline can be run.
-        // Specifying “agent any” means that Jenkins will run the job on any of the
-        // available nodes.
     		agent any
         stages {
             stage('Git Pull') {
