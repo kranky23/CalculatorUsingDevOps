@@ -17,9 +17,9 @@
             }
             stage ('Build Docker image') {
                 steps {
-                    sh 'docker build -t calculator_proj:latest .'
-                    sh 'docker tag calculator_proj kranky23/speminiproj'
-                    echo 'Docker image built and tagged!'
+                    sh 'docker build -t kranky23/speminiproj:latest .'
+//                     sh 'docker tag kranky23/speminiproj'
+                    echo 'Docker image built '
                 }
             }
 
