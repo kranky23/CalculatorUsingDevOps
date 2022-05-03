@@ -36,15 +36,15 @@
                 }
             }
 
-            stage('Ansible Deploy') {
-                steps {
-                    //Ansible Deploy to remote server (managed host)
-                    ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml'
+//             stage('Ansible Deploy') {
+//                 steps {
+//                     //Ansible Deploy to remote server (managed host)
+//                     ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml'
+//
+//                 }
+//             }
 
-                }
-            }
-
-            stage('Pull Image from docker hub ') {
+            stage('Ansible deploy and Pull Image from docker hub ') {
                 steps {
                     //Ansible Deploy to remote server (managed host)
                     ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'pull.yml'
